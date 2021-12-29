@@ -63,23 +63,37 @@
             </div>
             <div id="form-input">
                 <p>What would you improve? (Check all that apply)</p>
-                <label>
-                    <input type="checkbox" value="front-end-projects">Front-end Projects
-                    <input type="checkbox" value="back-end-projects">Back-end Projects
-                    <input type="checkbox" value="data-vizual">Data Visualization
-                    <input type="checkbox" value="challenges">Challenges
-                    <input type="checkbox" value="open-source-community">Open Source Community
-                    <input type="checkbox" value="gitter-rooms">Gitter Help Rooms
-                    <input type="checkbox" value="videos">Videos
-                    <input type="checkbox" value="city-meetups">city Meetups
-                    <input type="checkbox" value="wiki">Wiki
-                    <input type="checkbox" value="forum">Forum
-                    <input type="checkbox" value="additional-courses">Additional Courses
+                <label class="checkboxes">
+                    <input class="paddbttm" name="fep" type="checkbox" value="front-end-projects"/>
+                    <label for="fep">Front-end Projects</label>
+                    <input class="paddbttm" name="bep" type="checkbox" value="back-end-projects"/>
+                    <label for="bep">Back-end Projects</label>
+                    <input class="paddbttm" name="dv" type="checkbox" value="data-vizual"/>
+                    <label for="dv">Data Visualization</label>
+                    <input class="paddbttm" name="cll" type="checkbox" value="challenges"/>
+                    <label for="cll">Challenges</label>
+                    <input class="paddbttm" name="osc" type="checkbox" value="open-source-community"/>
+                    <label for="osc">Open Source Community</label>
+                    <input class="paddbttm" name="ghr" type="checkbox" value="gitter-rooms"/>
+                    <label for="ghr">Gitter Help Rooms</label>
+                    <input class="paddbttm" name="vds" type="checkbox" value="videos"/>
+                    <label for="vds">Videos</label>
+                    <input class="paddbttm" name="cm" type="checkbox" value="city-meetups"/>
+                    <label for="cm">City Meetups</label>
+                    <input class="paddbttm" name="wk" type="checkbox" value="wiki"/>
+                    <label for="wk">Wiki</label>
+                    <input class="paddbttm" name="frm" type="checkbox" value="forum"/>
+                    <label for="frm">Forum</label>
+                    <input class="paddbttm" name="ac" type="checkbox" value="additional-courses"/>
+                    <label for="ac">Additional Courses</label>
                 </label>
             </div>
             <div id="form-input">
                 <textarea id="comments" class="input-textarea" name="comment"
                 placeholder="Enter your comment here..."></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit" id="submit">Submit</button>
             </div>
         </form>
     </body>

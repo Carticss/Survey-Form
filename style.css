@@ -2,6 +2,8 @@ html {
     background: linear-gradient(90deg,#aedbf5, #e8aef5);
     font-size: 17px;
     font-family: Roboto, Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    color: #32313d;
 }
 
 header {
@@ -14,6 +16,21 @@ header {
 }
 
 .checkboxes {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 2vw 30vw;
+    grid-row-gap: 1vw;
 }
+
+#form-input {
+    padding-bottom: 1.5vh;
+    margin: 0 auto 1.25rem auto;
+}
+
+#survey-form {
+    background: rgba(106, 102, 128, 0.4);
+    padding: 2.5rem 0.625rem;
+    border-radius: 1%;
+    max-width: 50%;
+    margin: 0 auto
+}
+
