@@ -1,0 +1,19 @@
+html {
+    background: linear-gradient(90deg,#aedbf5, #e8aef5);
+    font-size: 17px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+#form-input {
+    display: flex;
+    flex-direction: column; 
+}
+
+.checkboxes {
+    display: flex;
+    flex-direction: column;
+}
